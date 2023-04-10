@@ -24,10 +24,61 @@
     } */
 
 
-    /* .center {
+/* .center {
         position: absolute;
         top: 50%;
         width: 100%;
         text-align: center;
         font-size: 18px;
       } */
+
+/* .bg-image {
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.6;
+      } */
+
+.bg-image-text {
+    margin: 65px;
+}
+
+.bg-img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-img::before {
+    content: "";
+    background-image: url('food_temp_2.avif');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: relative;
+    line-height: 2.9;
+    text-align: center;
+}
+
+h4 {
+    position: relative;
+    line-height: 0.9;
+    text-align: center;
+}
+
+.bg-button {
+    position: relative;
+    text-align: center;
+    width: 124px;
+    height: 40px;
+}

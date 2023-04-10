@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../static/images/style.css">
     </head>
     <body>
       <header class="w3-container w3-theme" id="myheader" style="text-align: center;padding: 1%;background-color: rgb(10,20,30);">
@@ -26,19 +27,20 @@
           </div>
         </div>
       </header>
-      <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white "  >
-        <a>
-          <img src="{{url_for('static',filename='/images/food_temp_2.avif')}}" alt="Food" style="width:100%; height: 78%; opacity: 0.5; " class="img">
+      <div class="bg-image bg-img p-5 text-center shadow-1-strong rounded mb-5 text-white "  >
+        <!-- <a> -->
+          <!-- <img src="{{url_for('static',filename='/images/food_temp_2.avif')}}" alt="Food" style="width:100%; height: 78%; opacity: 0.5; " class="img"> -->
           <!-- <img src="{{url_for('static',filename='/images/logo.jpg')}}" alt="LOGO" class="carousel-caption" style="padding-bottom: 370px"> -->
-          <div class="center">
-            <h1>Have a Function? We've got the catering</h1>
+          <div class="center bg-image-text " >
+            <h1 >Have a Function? We've got the catering</h1>
             <h4>Bringing high quality food and service to your event What are you waiting for??</h4>
-            <button type="button" >Enquire Now</button>
+            <button type="button" class="bg-button" >Enquire Now</button>
+            <div >
+              @copyright.....
+            </div>
           </div>
-        </a>
+        <!-- </a> -->
+        
       </div>
-   <div>
-    @MSR
-   </div>
     </body>
 </html>
